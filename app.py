@@ -19,7 +19,7 @@ st.write("Predict the quality of red wine using Machine Learning")
 # -----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("winequality-red.csv")
+    df = pd.read_csv("data.csv")
     return df
 
 df = load_data()
